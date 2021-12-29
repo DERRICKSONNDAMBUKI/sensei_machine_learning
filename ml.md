@@ -74,12 +74,34 @@ It is a supervised learning algorithm. That means that we need both – inputs a
 The x-value is called the feature , whereas the y-value is our
 label . The label is the result for our feature. Our linear regression model is represented by the blue line that goes straight through our data. It is placed so that it is as close as possible to all points at the same time. So we “trained” the line to fit the existing points or the existing data.
 
+### Classification Algorithms
+#### K-Nearest-Neighbours
 
+we assign the class of the new object, based on its nearest neighbors. The K specifies the amount of neighbors to look at. Notice that K shouldn’t be a multiple of the number of classes since it might cause conflicts when we have an equal amount of elements from one class as from the other.
 
+#### Naive-Bayes
 
+#### Logistic Regression
+It looks at probabilities and determines how likely it is that a certain event
+happens (or a certain class is the right one), given the input data. This is done
+by plotting something similar to a logistic growth curve and splitting the data
+into two.
 
+#### Decision Trees
 
+#### Random Forest
+It is based on decision trees. What it does is creating a forest of multiple
+decision trees. To classify a new object, all the various trees determine a class
+and the most frequent result gets chosen. This makes the result more accurate
+and it also prevents overfitting. It is also more suited to handle data sets with
+higher dimensions. On the other hand, since the generation of the forest is
+random , you have very little control over your model.
 
+# PREDICTING LABELS
+Again, we can again make predictions for new, unknown data. The chance of success in the classification is even very high. We just need to pass an array of input values and use the predict function.
+
+X_new = np.array([[...]])
+Y_new = clf.predict(X_new)
 
 
 
