@@ -113,6 +113,25 @@ These are very powerful, very efficient machine learning algorithms and they eve
 #### soft margin
 Now instead of using a kernel or a polynomial function to solve this problem, we can define a so-called soft margin. With this, we allow for conscious misclassification of outliers in order to create a more accurate model. Caring too much about these outliers would again mean overfitting the model.
 
+# 2. Unsupervised Learning Algorithm
+## Clustering
+
+Clustering is an unsupervised learning algorithm, which means that we don’t have the results for our inputs. We can’t tell our model what is right and wrong. It has to find patterns on its own.
+The algorithm gets raw data and tries to divide it up into clusters. K-Means-Clustering is the method that we are going to use here. Similar to K-Nearest-Neighbors, the K states the amount of clusters we want.
+The clustering itself works with so-called centroids . These are the points, which lie in the center of the respective clusters.
+
+# Neural Networks
+- - - 
+## Optimizing Models
+ - Serialization - used to save objects into files during       runtime. 
+ By doing this, we are not only saving the attributes
+ but the whole state of the object. Because of that, we can load the same object back into a program later and continue working with it.
+ 
+
+
+
+
+
 
 AI provide the capabilities to:
 - Generalize/adapt
