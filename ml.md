@@ -103,6 +103,15 @@ Again, we can again make predictions for new, unknown data. The chance of succes
 X_new = np.array([[...]])
 Y_new = clf.predict(X_new)
 
+## Support Vector Machines
+
+These are very powerful, very efficient machine learning algorithms and they even achieve much better results than neural networks in some areas.
+
+#### kernels
+ These add a new dimension to our data. By doing that, we hope to increase the complexity of the data and possibly use a hyperplane as a separator.
+
+#### soft margin
+Now instead of using a kernel or a polynomial function to solve this problem, we can define a so-called soft margin. With this, we allow for conscious misclassification of outliers in order to create a more accurate model. Caring too much about these outliers would again mean overfitting the model.
 
 
 AI provide the capabilities to:
