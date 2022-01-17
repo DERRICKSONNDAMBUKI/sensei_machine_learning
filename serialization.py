@@ -23,7 +23,7 @@ for x in range(2500):
         with open('model.pickle', 'wb') as file:
             pickle.dump(model, file)
 
-# print(best_accuracy)
+print(best_accuracy)
 
 # The concept is quite simple. We define a variable best_accuracy which starts
 # with the v/alue zero. Then we run a loop with 2500 iterations and we train our
